@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  padding-bottom: 100px;
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+
+.contenTarget{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.conten_li{
+ 
+  width:150px;
+  padding:40px;
+  list-style: none;
+  text-align: center;
+  border-radius:10%;
+  text-align:justify;
+
+}
+
+.contenLamparas{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.lampara{
+  text-align: center;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  margin: 20px;
+  border:50px;
+  position: relative;
+
+}
+
+.base{
+  
+  background-color: rgb(87, 101, 114);
+  width:150px;
+  height:75px;
+  position: absolute;
+  top: 90%;
+  right:13%;
+  border-radius: 5%;
+}
+
+.btGlobal{
+  margin-top:5% ;
+  background-color: rgb(53, 120, 255);
+  width: 150px;
+  height:100px;
+  border-radius: 10%;
+}
+
+.bt{
+  margin-top: 20%;
+  width: 100px;
+  background-color: darkgray;
+  border-radius: 20%;
+
+}
+button:hover{
+  transform-origin: 2;
+  background-color: rgb(0, 94, 255);
+}
+
+.off{
+  background-color: rgb(21, 118, 118);
+}
+
+.on{
+  background-color:rgb(242, 242, 89);
+}
+
+
+.targetConten{
+  border-radius: 10%;
+  display: inline-block;
+  justify-content: center;
+  padding: 0 20% 0 20%;
+ height:400px;
+ 
+ 
+}
+.targetLi{
+
+  display: inline-block;
+  background-color: brown;
+  position: relative;
+  top: 28%;
+  
+  padding: 2%;
+  border-radius: 10%;
+  flex-wrap:nowrap;
+}
+.targetConten li {
+    text-align: justify;
+}
